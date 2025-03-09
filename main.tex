@@ -1,13 +1,26 @@
 \documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[italian]{babel}
 
-\usepackage{xcolor} 
-\pagecolor[rgb]{0,0,0} 
-\color[rgb]{0.8,0.8,0.8} 
+\usepackage{tikz} % For creating vector graphics.
+\usepackage{amsmath} % Extend standard mathematical capabilities
+\usepackage{booktabs} % For \toprule, \midrule and \bottomrule
+
+\usepackage{xcolor}
+\pagecolor[rgb]{0, 0, 0}
+\color[rgb]{0.8, 0.8, 0.8} 
+
+\title{Appunti RNP}
+\author{Antonio Messina: messinantonio13@gmail.com}
+\date{March 2025}
 
 \begin{document}
-Questo è un progetto di prova per usare LaTeX in locale.
-	\begin{equation}
-		x = 5
-	\end{equation}
+
+\maketitle
+
+\tableofcontents
+
+\input{lecture_notes/lecture_1/lecture_1}
+\input{lecture_notes/lecture_2/lecture_2}
 
 \end{document}
